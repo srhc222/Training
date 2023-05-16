@@ -1,3 +1,5 @@
+import { pageHeader } from 'src/app/data/layout-data';
+import { Header } from './../../model/header';
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
-
+  headerModel: Header = pageHeader;
 }
