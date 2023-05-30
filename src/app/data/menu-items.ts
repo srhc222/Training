@@ -1,6 +1,7 @@
 import { MenuItem } from './../model/menu-item';
 
 export const item:Array<MenuItem> = [
-  { name: 'Bugatti', url: "", isShow: true },
-  { name:'Alpine', url: "", isShow: true },
+  { name: 'Home', url: "home", isShow: true },
+  { name: 'Catalog', url: "catalog", isShow: true },
+  { name: 'Item Details', url: "item-details", isShow: true },
 ]
