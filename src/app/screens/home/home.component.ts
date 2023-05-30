@@ -1,3 +1,5 @@
+import { Home } from './../../data/pages-data';
+import { Page } from './../../model/page';
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,5 +8,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent {
-
+  PageDetails: Page = Home;
 }
+

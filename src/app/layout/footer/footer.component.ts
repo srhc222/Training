@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Footer } from './../../model/footer';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-footer',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./footer.component.css']
 })
 export class FooterComponent {
-
+  @Input() footerModel!: Footer;
 }

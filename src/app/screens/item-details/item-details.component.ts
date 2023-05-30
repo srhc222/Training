@@ -1,3 +1,5 @@
+import { ItemDetails } from './../../data/pages-data';
+import { Page } from './../../model/page';
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,5 +8,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./item-details.component.css']
 })
 export class ItemDetailsComponent {
-
+  PageDetails: Page = ItemDetails
 }
+

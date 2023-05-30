@@ -1,3 +1,4 @@
+import { Content } from './../model/content';
 import { MenuItem } from './../model/menu-item';
 import { Footer } from "../model/footer";
 import { Header } from "../model/header";
@@ -21,4 +22,8 @@ export const pageMenuItem: MenuItem = {
   name: "Bugatti",
   url: "a",
   isShow: true,
+}
+
+export const pageContent: Content = {
+
 }
