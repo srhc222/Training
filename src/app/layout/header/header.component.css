@@ -3,4 +3,8 @@ header {
   height: 50px;
   width: 100%;
   border: solid;
+  background-color: white;
+}
+#firstMotor{
+  height: 150%;
 }

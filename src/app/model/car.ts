@@ -3,7 +3,7 @@ export class Car {
   model?: string;
   year?: number;
   engine?: string;
-  maxSpeed?: number;
-  acceleration?: number;
-  price?: number;
+  maxSpeed?: string;
+  acceleration?: string;
+  price?: string;
 }
