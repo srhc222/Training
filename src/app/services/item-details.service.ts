@@ -50,7 +50,7 @@ export class ItemDetailsService {
   }
 
   removeCar(car: Car) {
-    let index: number = this.cars.indexOf(car);
+    let index = this.cars.indexOf(car);
     this.cars.splice(index, 1);
     return this.cars;
   }
