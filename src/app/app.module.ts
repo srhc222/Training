@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -10,7 +11,7 @@ import { ContentComponent } from './layout/content/content.component';
 import { HomeComponent } from './screens/home/home.component';
 import { CatalogComponent } from './screens/catalog/catalog.component';
 import { ItemDetailsComponent } from './screens/item-details/item-details.component';
-
+import { WishListComponent } from './screens/wish-list/wish-list.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { ItemDetailsComponent } from './screens/item-details/item-details.compon
     HomeComponent,
     CatalogComponent,
     ItemDetailsComponent,
+    WishListComponent,
   ],
   imports: [
     BrowserModule,
