@@ -5,11 +5,13 @@ import { Catalog } from './data/pages-data';
 import { catalog } from './data/catalog-data';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { WishListComponent } from './screens/wish-list/wish-list.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'catalog', component: CatalogComponent },
   { path: 'item-details', component: ItemDetailsComponent },
+  { path: 'wishList', component: WishListComponent },
   { path: '**', component: HomeComponent },
 ];
 

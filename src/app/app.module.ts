@@ -27,7 +27,8 @@ import { WishListComponent } from './screens/wish-list/wish-list.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

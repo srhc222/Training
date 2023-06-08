@@ -20,3 +20,10 @@ export const ItemDetails: Page = {
   pageNumber: 3,
   imagePagePath: '',
 };
+
+export const wishList: Page = {
+  title: 'Wish List',
+  isMain: true,
+  pageNumber: 4,
+  imagePagePath: '',
+}
